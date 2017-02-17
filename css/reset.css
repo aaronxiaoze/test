@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,input,textarea,img,li,ul,ol,form,a{
+	margin:0px;
+	padding:0px;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+
+a{text-decoration: none;
+	
+	display:block;
+}
+img{
+	display:block;
+}
+
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	content:'';
+	display:block;
+	clear:both;
+	height:0px;
+	visibility: hidden;
+}
+
