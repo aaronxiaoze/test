@@ -200,8 +200,123 @@ a.deatil-img:hover{
 
 .middle-detail-parts{
 	display:inline-block;
+	vertical-align: top;
+	text-align: center;
+	
 }
 .detail-content{
 	width:124px;
 	text-align: center;
+}
+.detail-content p{
+	text-align:left;
+	margin-top:12px;
+	font-size:10px;
+	width: 140px;
+	height: 48px;
+}
+.banner1{
+	
+	width:760px;
+	overflow: hidden;
+	margin:32px auto;
+	margin-top:52px;
+}
+.banner-show{
+	height:240px;
+	width:1520px;
+	overflow:hidden;
+}
+.banner1 .banner-show li{
+	display:inline-block;
+	width:190px;
+	position:relative;
+}
+.banner1 .banner-show li img{
+	width:180px;
+}
+
+
+.banner-cover{
+	position:absolute;
+	width:180px;
+	height:240px;
+	top:100px;
+	left:50px;
+}
+
+.detail-content h3 {
+	margin-top:22px;
+}
+.deatil-btn{
+	display:inline-block;
+	width:82px;
+	height:22px;
+	
+	font-size: 8px;
+	text-align:center;
+	color:white;
+	margin-top:15px;
+}
+.deatil-btn a {
+	color:white;
+	background-color:#4d4b4c;
+	border-radius: 6px;
+	line-height: 22px;
+}
+
+.bg{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	top:0;	
+	opacity:0.3;
+}
+
+.hide{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	
+	top:0;
+}
+.banner-show li:hover .bg{
+	display:block;
+}
+.banner-show li:hover .hide{
+	display:block;
+}
+.banner1 .slide{
+	width:80px;
+	margin:0 auto;
+	margin-top:27px;
+}
+.unhold{
+	width:8px;
+	height:8px;
+	border: 2px solid #000;
+	border-radius: 100%;
+	background-color:#fff;
+	display:inline-block;
+	
+	
+}
+.active{
+	
+	background-color:#f97b02;
+	border-color: #f97b02;
+}
+
+
+.slide ul{
+	text-align:justify;
+}
+.slide ul:after {
+    content:'';
+	display:inline-block;
+	width:100%;
+	visibility: hidden;
 }
