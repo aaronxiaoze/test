@@ -440,3 +440,63 @@ p.hb {
 	vertical-align: top;
 	padding-left:8px;
 }
+
+.footer .footer-first .footer-logo img {
+	width:166px;
+	height:110px;
+	margin-left:88px;
+	position:relative;
+	top:-8px;
+}
+.footer .footer-first .footer-logo:after{
+	content:'';
+	display:inline-block;
+	height:0px;
+	width:0px;	
+	border-left:8px solid #000;
+	border-top:8px solid #fff;
+	position: absolute;
+	top:-8px;
+	left:254px;
+}
+.footer .footer-first{
+	
+	margin-top:36px;
+	height:54px;
+	background-color:#686767;
+}
+
+.footer-first .pos {
+	width:900px;
+	margin: 0 auto;
+}
+
+.footer-logo {
+	float:left;
+	position:relative;
+
+}
+
+.footer-slogan {
+	float:left;
+	line-height: 54px;
+	margin-left:21px;
+}
+
+.footer-backhome {
+	float:right;
+	width: 136px;
+	height: 30px;
+	margin-top:12px;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+	padding-left:20px;
+}
+
+.homeimg {
+	
+}
+
+i {
+	font-size: 6px;
+}
